@@ -1,9 +1,12 @@
 #task 1
+
+print("task1")
 67^3 - 112^2 #288219
 log(125) #4.828314
 log(81, base=3) #4
 
 #task2
+
 print("task2")
 flights_d <- c(140, 150, 100, 90, 230, 240, 165) #vileti
 flights_a <- c(65, 145, 80, 87, 220, 268, 216) #prileti
