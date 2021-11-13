@@ -28,8 +28,6 @@ print(pos_g <- pos*1000)#значением весов посылок в гра�
 milk <- c(89.5, 50.5, 31.5, 21.0, 22.1, 27.4)#средние цены за килограмм сырого молока
 #4.1
 milk.middle <-(sum(milk)/length(milk))
-#forprint <- "выборочная дисперсия равна:"+toString(milk.middle[[1]])
-#print(forprint)
 cat("выборочная дисперсия равна:", milk.middle)
 #4.2
 s2 <- sum((milk-milk.middle)^2)/(length(milk)-1)
@@ -49,6 +47,5 @@ which (euro==sort(euro)[length(euro)])
 #task6
 #6.1
 country<-c(rep(c("France"),5),rep(c("Italy"),5),rep(c("Spain"),5))
-#print(country)
 year <- c(rep(c("2000","2001","2002","2003","2004"),3))
-#print(year)
+
