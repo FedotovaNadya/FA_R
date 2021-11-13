@@ -28,6 +28,7 @@ print(pos.round)# значения весов посылок в килограм
 print(pos_g <- pos*1000)#значением весов посылок в граммах
 
 #task4
+
 print("task4")
 milk <- c(89.5, 50.5, 31.5, 21.0, 22.1, 27.4)#средние цены за килограмм сырого молока
 #4.1
@@ -38,6 +39,7 @@ s2 <- sum((milk-milk.middle)^2)/(length(milk)-1)
 print(s2)
 
 #task5
+
 print("task5")
 #5.1
 help("euro")#Запросите помощь по вектору euro
@@ -48,6 +50,7 @@ fin_belg <- 50*euro["BEF"]#50 бельгийских франков
 print(fin_belg)
 #5.3
 which (euro==sort(euro)[length(euro)])
+
 
 #task6
 print("task6")
