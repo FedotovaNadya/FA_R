@@ -44,10 +44,5 @@ docs/
 # translation temp files
 po/*~
 
-<<<<<<< HEAD
-#w
-win-library/
-=======
 #library
 win-library/
->>>>>>> in_work
