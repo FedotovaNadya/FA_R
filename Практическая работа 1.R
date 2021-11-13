@@ -24,14 +24,13 @@ print(pos.round)# значения весов посылок в килограм
 #3.3
 print(pos_g <- pos*1000)#значением весов посылок в граммах
 
-#4
+#task4
 milk <- c(89.5, 50.5, 31.5, 21.0, 22.1, 27.4)#средние цены за килограмм сырого молока
 #4.1
 milk.middle <-(sum(milk)/length(milk))
 #forprint <- "выборочная дисперсия равна:"+toString(milk.middle[[1]])
 #print(forprint)
 cat("выборочная дисперсия равна:", milk.middle)
-
 #4.2
 s2 <- sum((milk-milk.middle)^2)/(length(milk)-1)
 print(s2)
